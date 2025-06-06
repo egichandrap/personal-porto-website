@@ -34,7 +34,7 @@ export default function Header() {
         ))}
         <DarkModeToggle />
         <a
-          href="/CV.Egi-Chandra-Pratama.pdf"
+          href="/[LATEST][CV]-Egi-Chandra-Pratama.pdf"
           download
           className="ml-4 px-4 py-2 bg-gray-900 text-white rounded-full hover:bg-gray-700 transition-colors"
         >
