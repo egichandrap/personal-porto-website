@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function ExperienceSection() {
   const experiences = [
     {
@@ -17,7 +19,6 @@ export default function ExperienceSection() {
         "Applied Clean Architecture principles consistently across services for better scalability, testability, and code maintainability.",
         "Utilized DevOps tools such as Docker, Kubernetes, and GitLab CI/CD to ensure smooth deployments and environment management.",
       ],
-      
     },
     {
       company: "SiPajak",
@@ -54,10 +55,13 @@ export default function ExperienceSection() {
             className="flex flex-col md:flex-row items-start md:items-center bg-gray-50 dark:bg-gray-800 rounded-lg shadow p-6"
           >
             <div className="flex-shrink-0 w-24 h-24 mb-4 md:mb-0 md:mr-6">
-              <img
+              <Image
                 src={exp.logo}
                 alt={`${exp.company} logo`}
-                className="w-full h-full object-contain"
+                width={96}
+                height={96}
+                className="object-contain"
+                priority
               />
             </div>
             <div className="flex-1">

@@ -35,7 +35,7 @@ export default function AboutMeSection() {
         </p>
         <p className="mb-4 text-base sm:text-lg leading-relaxed">
         Since starting my professional journey in 2020, I&apos;ve contributed to national-scale products across the telecom, fintech, and gov-tech sectors—helping teams ship robust backend services for features like emergency credit, quota injection, and digital payment integrations.
-        I take pride in understanding both the technical and business sides of software development—translating complex logic into maintainable code while aligning with product goals and user impact. I'm a proactive problem-solver who enjoys collaborating within squads and shipping meaningful features.
+        I take pride in understanding both the technical and business sides of software development—translating complex logic into maintainable code while aligning with product goals and user impact. I&apos;m a proactive problem-solver who enjoys collaborating within squads and shipping meaningful features.
         </p>
         <p className="mb-4 text-base sm:text-lg leading-relaxed">
         Outside of coding, I enjoy exploring new technologies and architectural patterns, staying updated with backend engineering trends, and occasionally mentoring or supporting junior devs. I&apos;m always excited to work on challenging projects that push the boundaries of backend innovation.
