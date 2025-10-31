@@ -31,7 +31,7 @@ export default function AboutMeSection() {
           Curious about me? Here you have it:
         </h2>
         <p className="mb-4 text-base sm:text-lg leading-relaxed">
-          I&apos;m a backend engineer specializing in Java and Go, with over 4 years of experience building scalable, resilient, and high-performance systems. I care deeply about clean architecture, efficient microservices, and delivering backend solutions that drive impactful digital products.
+          I&apos;m a backend engineer specializing in Java and Go, with experience building scalable, resilient, and high-performance systems. I care deeply about clean architecture, efficient microservices, and delivering backend solutions that drive impactful digital products.
         </p>
         <p className="mb-4 text-base sm:text-lg leading-relaxed">
         Since starting my professional journey in 2020, I&apos;ve contributed to national-scale products across the telecom, fintech, and gov-tech sectors—helping teams ship robust backend services for features like emergency credit, quota injection, and digital payment integrations.

@@ -12,7 +12,7 @@ export default function HeroSection() {
           Hi, I&apos;m Egi Chandra <span role="img" aria-label="waving hand">👋</span>
         </h1>
         <p className="text-gray-700 dark:text-gray-300 text-base sm:text-lg max-w-xl">
-                  I&apos;m a backend engineer specializing in Java and Go with 4+ years of experience building scalable, resilient, and high-performance systems. Passionate about clean architecture, microservices, and delivering reliable solutions that power impactful digital services across telecom, fintech, and gov-tech ecosystems.
+                  I&apos;m a backend engineer specializing in Java and Go with experience building scalable, resilient, and high-performance systems. Passionate about clean architecture, microservices, and delivering reliable solutions that power impactful digital services across telecom, fintech, and gov-tech ecosystems.
         </p>
 
         {/* Location and Availability */}

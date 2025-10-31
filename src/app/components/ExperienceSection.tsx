@@ -12,7 +12,7 @@ export default function ExperienceSection() {
       points: [
         "Contributed as a backend engineer in PEGASUS Squad, delivering emergency credit and data package services (*505#, SMS, and international roaming) using Java, Spring Boot, MySQL, Kafka, Redis, and RabbitMQ.",
         "Developed bonus quota injection features for new IMEI activations, ORBIT packages, and Telkomsel campaigns, leveraging Go and microservices architecture.",
-        "Lead backend development of ProtekSi Kecil (parental control mini-app in MyTelkomsel) using Go, PostgreSQL, Kubernetes, and Clean Architecture.",
+        "Contributed as a backend engineer in ProtekSi Kecil (parental control mini-app in MyTelkomsel) using Go, PostgreSQL, Kubernetes, and Clean Architecture.",
         "Implemented Telkomsel SmartPay's backend, integrating credit-based purchases with third-party lending services, built using Go, PostgreSQL, Kafka, and CI/CD.",
         "Built enterprise features for Telkomsel.com in BeOne Squad using Drupal 8, PHP, MySQL, and Docker.",
         "Developed backend for DigiAds (Telkomsel's digital ads platform) with Drupal 8, PHP, and MySQL to support campaign and analytics services.",
