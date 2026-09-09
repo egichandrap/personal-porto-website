@@ -13,7 +13,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const SITE_URL = "https://dashboard-egichandrap.vercel.app";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  alternates: {
+    canonical: "/",
+  },
   title: "Egi Chandra Pratama — Backend Engineer (Java & Go)",
   description:
     "Backend engineer specializing in Java and Go. Since 2020, building distributed and high-scale backend systems across telecom, fintech, and gov-tech.",
@@ -22,6 +28,7 @@ export const metadata: Metadata = {
     description:
       "Backend engineer specializing in Java and Go, building distributed and high-scale backend systems across telecom, fintech, and gov-tech.",
     type: "website",
+    url: "/",
     siteName: "Egi Chandra Pratama — Portfolio",
     locale: "en_US",
   },
