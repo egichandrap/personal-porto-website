@@ -17,6 +17,9 @@ const SITE_URL = "https://dashboard-egichandrap.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  verification: {
+    google: "fGqkj2QTlOrkWDfDKdc3__3n1_WMgjK5syXmdYFxIKc",
+  },
   alternates: {
     canonical: "/",
   },
