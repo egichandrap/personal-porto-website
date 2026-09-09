@@ -1,12 +1,10 @@
-"use client";
-
 import Image from "next/image";
 
 export default function AboutMeSection() {
   return (
     <section
       id="about"
-      className="w-full max-w-7xl mx-auto bg-white dark:bg-gray-900 rounded-3xl p-8 sm:p-16 flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-16 shadow-md mt-12"
+      className="w-full max-w-7xl mx-auto bg-white dark:bg-gray-900 rounded-3xl p-8 sm:p-16 flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-16 shadow-md mt-12 scroll-mt-20"
     >
       {/* Left - Image */}
       <div className="flex-shrink-0 relative w-56 h-56 md:w-72 md:h-72 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
@@ -14,9 +12,8 @@ export default function AboutMeSection() {
           src="/egi.jpeg"
           alt="About me photo"
           fill
-          sizes="(max-width: 768px) 100vw, 288px"
+          sizes="(min-width: 768px) 288px, 224px"
           className="object-cover"
-          priority
         />
       </div>
 
@@ -48,8 +45,16 @@ export default function AboutMeSection() {
         </ul>
 
         <p className="mt-6 text-base sm:text-lg">
-          One last thing, I&apos;m available for freelance work, so feel free to
-          reach out and say hello! I promise I don&apos;t bite{" "}
+          One last thing, I&apos;m available for freelance work, so feel free to{" "}
+          <a
+            href="https://www.linkedin.com/in/egichandrapratama/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-gray-900 dark:text-white underline underline-offset-4 decoration-gray-400 dark:decoration-gray-600 hover:decoration-gray-900 dark:hover:decoration-gray-300 transition-colors"
+          >
+            reach out
+          </a>{" "}
+          and say hello! I promise I don&apos;t bite{" "}
           <span role="img" aria-label="smiling face">
             🙂
           </span>

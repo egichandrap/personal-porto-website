@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 
 export default function ExperienceSection() {
@@ -38,7 +36,7 @@ export default function ExperienceSection() {
   return (
     <section
       id="experience"
-      className="w-full max-w-7xl mx-auto bg-white dark:bg-gray-900 rounded-3xl p-8 sm:p-16 shadow-md mt-12"
+      className="w-full max-w-7xl mx-auto bg-white dark:bg-gray-900 rounded-3xl p-8 sm:p-16 shadow-md mt-12 scroll-mt-20"
     >
       <div className="mb-4 flex justify-center">
         <span className="inline-block bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 rounded-full px-4 py-1 text-xs font-semibold">
@@ -61,7 +59,6 @@ export default function ExperienceSection() {
                 width={96}
                 height={96}
                 className="object-contain"
-                priority
               />
             </div>
             <div className="flex-1">

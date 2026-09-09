@@ -2,20 +2,30 @@
 
 import Link from "next/link";
 import DarkModeToggle from "./DarkModeToggle";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  useEffect(() => {
+    if (!menuOpen) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setMenuOpen(false);
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [menuOpen]);
+
   const navLinks = [
     { name: "About", href: "#about" },
+    { name: "Skills", href: "#skills" },
+    { name: "Experience", href: "#experience" },
     { name: "Work", href: "#work" },
-    { name: "Testimonials", href: "#testimonials" },
     { name: "Contact", href: "#contact" },
   ];
 
   return (
-    <header className="w-full max-w-7xl mx-auto flex items-center justify-between p-4 sm:p-8 rounded-b-3xl bg-white dark:bg-gray-900 shadow-md">
+    <header className="sticky top-0 z-50 w-full max-w-7xl mx-auto flex items-center justify-between p-4 sm:p-8 rounded-b-3xl bg-white dark:bg-gray-900 shadow-md">
       {/* Logo */}
       <div className="text-2xl font-bold font-mono text-gray-900 dark:text-white">
         {"<DoWithLogic />"}
@@ -34,7 +44,7 @@ export default function Header() {
         ))}
         <DarkModeToggle />
         <a
-          href="/CV.Egi-Chandra-Pratama-[Latest].pdf"
+          href="/CV.Egi-Chandra-Pratama.pdf"
           download
           className="ml-4 px-4 py-2 bg-gray-900 text-white rounded-full hover:bg-gray-700 transition-colors"
         >
@@ -47,6 +57,8 @@ export default function Header() {
         <DarkModeToggle />
         <button
           aria-label="Toggle menu"
+          aria-expanded={menuOpen}
+          aria-controls="mobile-menu"
           onClick={() => setMenuOpen(!menuOpen)}
           className="ml-4 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-900 dark:focus:ring-white"
         >
@@ -77,7 +89,10 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <nav className="absolute top-full left-0 w-full bg-white dark:bg-gray-900 shadow-md rounded-b-3xl p-4 flex flex-col space-y-4 md:hidden z-10">
+        <nav
+          id="mobile-menu"
+          className="absolute top-full left-0 w-full bg-white dark:bg-gray-900 shadow-md rounded-b-3xl p-4 flex flex-col space-y-4 md:hidden z-10"
+        >
           {navLinks.map((link) => (
             <Link
               key={link.name}
