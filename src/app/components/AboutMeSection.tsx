@@ -28,20 +28,21 @@ export default function AboutMeSection() {
           Curious about me? Here you have it:
         </h2>
         <p className="mb-4 text-base sm:text-lg leading-relaxed">
-          I&apos;m a backend engineer specializing in Java and Go, with experience building scalable, resilient, and high-performance systems. I care deeply about clean architecture, efficient microservices, and delivering backend solutions that drive impactful digital products.
+          I&apos;m a backend engineer with 5+ years of experience building scalable, resilient, and high-performance systems in enterprise and high-traffic environments. Specializing in Java (Spring Boot) and Go, I bring strong expertise in microservices architecture, event-driven systems (Kafka, RabbitMQ, MQTT), Kubernetes orchestration, and Clean Architecture principles.
         </p>
         <p className="mb-4 text-base sm:text-lg leading-relaxed">
-        Since starting my professional journey in 2020, I&apos;ve contributed to national-scale products across the telecom, fintech, and gov-tech sectors—helping teams ship robust backend services for features like emergency credit, quota injection, and digital payment integrations.
-        I take pride in understanding both the technical and business sides of software development—translating complex logic into maintainable code while aligning with product goals and user impact. I&apos;m a proactive problem-solver who enjoys collaborating within squads and shipping meaningful features.
+          Since beginning my career in 2020, I have led backend initiatives and delivered production-ready systems across the telecom, fintech, IoT, and gov-tech sectors. My work includes engineering high-availability services for Telkomsel—such as emergency credit channels (*505#, SMS blast, RoaMax roaming), automated bonus quota injections, pay-later lending integrations (SmartPay), and real-time IoT telemetry pipelines (Patricia)—as well as enhancing and performance-tuning Pegadaian&apos;s restcore services to achieve high-throughput benchmarks exceeding 5,000 TPS per endpoint.
         </p>
         <p className="mb-4 text-base sm:text-lg leading-relaxed">
-        Outside of coding, I enjoy exploring new technologies and architectural patterns, staying updated with backend engineering trends, and occasionally mentoring or supporting junior devs. I&apos;m always excited to work on challenging projects that push the boundaries of backend innovation.
+          Beyond writing reliable code, I take pride in leading backend initiatives as PIC—from business process modeling, schema and query optimization across PostgreSQL, IBM DB2, MySQL, and Oracle, to configuring API Gateways (KrakeND) and managing containerized deployments across Kubernetes and OpenShift (OCP). I enjoy collaborating within cross-functional squads, running K6 performance benchmarks, and ensuring systems remain robust under national-scale demand.
         </p>
-        <ul className="grid grid-cols-2 gap-4 list-disc list-inside text-base sm:text-lg">
-          <li>Bachelor of Informatics Engineering</li>
-          <li>Backend-first mindset</li>
-          <li>Clean architecture advocate</li>
-          <li>Available for meaningful collaboration opportunities</li>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 list-disc list-inside text-base sm:text-lg">
+          <li>5+ years in high-scale &amp; enterprise backend</li>
+          <li>High-throughput tuning (&gt;5,000 TPS per endpoint)</li>
+          <li>Event-driven architecture (Kafka, RabbitMQ, MQTT)</li>
+          <li>Kubernetes &amp; OpenShift (OCP) orchestration</li>
+          <li>Clean Architecture &amp; DDD advocate</li>
+          <li>B.S. in Informatics Engineering (GPA: 3.58 / 4.00)</li>
         </ul>
 
         <p className="mt-6 text-base sm:text-lg">

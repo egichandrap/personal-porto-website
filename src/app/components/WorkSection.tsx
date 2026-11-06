@@ -1,5 +1,20 @@
 const projects = [
   {
+    name: "VULNEX",
+    type: "Defensive Security Platform",
+    description:
+      "An open-source vulnerability assessment and penetration testing management platform built with Clean Architecture, DDD, and SOLID principles: features a unified CLI installer for Local and Server deployments via Docker Compose, strict asset scoping and authorization enforcement before scanning, modular adapter integrations for scanners (Nmap, OWASP ZAP) executing in isolated workers, normalized finding deduplication, and automated report generation.",
+    tags: [
+      "Go",
+      "Next.js",
+      "Docker Compose",
+      "Clean Architecture",
+      "DDD",
+      "Security",
+    ],
+    link: "https://github.com/egichandrap/VULNEX",
+  },
+  {
     name: "POS-Backend",
     type: "Backend System",
     description:
