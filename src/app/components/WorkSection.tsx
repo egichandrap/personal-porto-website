@@ -1,5 +1,21 @@
 const projects = [
   {
+    name: "ALPINEX",
+    type: "API Testing & Performance Engineering Platform",
+    description:
+      "An open-source, self-hosted API testing and performance engineering platform powered by Grafana k6 and built with Clean Architecture and DDD: features a 1-line CLI installer deploying PostgreSQL, Redis, API control plane, execution workers, and React dashboard; visual workload configuration (Constant VUs, Ramping VUs, Arrival Rate) without manual k6 scripting; sub-second WebSocket telemetry for real-time P50/P90/P99 latency tracking; multi-tenant RBAC, SSRF protection, and headless CLI runner for CI/CD automation.",
+    tags: [
+      "Go",
+      "React",
+      "Grafana k6",
+      "Docker Compose",
+      "Clean Architecture",
+      "DDD",
+      "Performance Testing",
+    ],
+    link: "https://github.com/egichandrap/ALPINEX",
+  },
+  {
     name: "VULNEX",
     type: "Defensive Security Platform",
     description:
